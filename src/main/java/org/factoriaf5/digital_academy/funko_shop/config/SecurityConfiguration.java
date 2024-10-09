@@ -47,7 +47,8 @@ public class SecurityConfiguration {
                         "/api/v1/auth/**",
                         "/api/v1/products/**",
                         "/api/v1/categories/**",
-                        "/api/v1/news-letter/**" };
+                        "/api/v1/news-letter/**",
+                "/api/v1/payments/**" };
         private final JwtAuthenticationFilter jwtAuthFilter;
         private final AuthenticationProvider authenticationProvider;
         private final LogoutHandler logoutHandler;
